@@ -1,3 +1,3 @@
 export function GetAge(person) {
-    return person.age;
+    return person.age
 }
