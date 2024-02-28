@@ -4,6 +4,7 @@ import Gallery from './components/Gallery';
 import TodoList from './components/TodoList';
 import { Avatar } from './components/Avatar';
 import { Card } from './components/Card';
+import Scientists from './components/Scienttists';
 
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
     <TodoList />
     <Avatar />
     <Card />
+    <Scientists />
     </>
   );
 }
