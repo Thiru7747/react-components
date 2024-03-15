@@ -33,7 +33,7 @@ export default function TodoList() {
             <h1>To Do List for {formatDate(today)}</h1>
             <ul>
                 <li>Invent new traffic lights</li>
-                <li>Rehearse a movie scene</li>
+                <li>Rehearse a movie scenes</li>
                 <li>Improve the spectrum technology</li>
             </ul>
         </>
