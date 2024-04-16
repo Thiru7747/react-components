@@ -10,6 +10,8 @@ import Lists from './components/Lists';
 import RecipesList from './components/RecipesList';
 import PureComponent from './components/PureComponent';
 import Sculptures from './components/Sculptures';
+import { Buttons } from './components/Buttons';
+import Eventhandlers from './components/Eventhandlers';
 
 
 export default function App() {
@@ -25,6 +27,11 @@ export default function App() {
       <RecipesList />
       <PureComponent />
       <Sculptures />
+      <br></br>
+      <Buttons />
+      <br>
+      </br>
+      <Eventhandlers />
     </>
   );
 }
