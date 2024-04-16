@@ -2,18 +2,19 @@
 Because event handlers are declared inside of a component, 
 they have access to the component’s props. Here is a button that, 
 when clicked, shows an alert with its message prop:
-*/  
-
+*/
+import { generateOTP } from "./Utils";
+const number = generateOTP(6)
 
 function AlertButton({ message, children }) {
     return (
-        <button onClick={() => alert(message)}>
+        <button onClick={() => alert(message+": "+number)}>
             {children}
         </button>
     );
 }
 
-export default function Eventhandlers(){
+export default function Eventhandlers() {
     return (
         <div>
             <AlertButton message="Playing!">
@@ -21,6 +22,9 @@ export default function Eventhandlers(){
             </AlertButton>
             <AlertButton message="Uploading!">
                 Upload Image
+            </AlertButton>
+            <AlertButton message="Your OTP">
+                Generate OTP
             </AlertButton>
         </div>
     );
