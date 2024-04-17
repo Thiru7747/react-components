@@ -4,11 +4,11 @@ they have access to the component’s props. Here is a button that,
 when clicked, shows an alert with its message prop:
 */
 import { generateOTP } from "./Utils";
-const number = generateOTP(6)
+const OTP = generateOTP(6)
 
 function AlertButton({ message, children }) {
     return (
-        <button onClick={() => alert(message+": "+number)}>
+        <button onClick={() => alert(message+": "+OTP)}>
             {children}
         </button>
     );
