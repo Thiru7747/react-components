@@ -12,6 +12,8 @@ import PureComponent from './components/PureComponent';
 import Sculptures from './components/Sculptures';
 import { Buttons } from './components/Buttons';
 import Eventhandlers from './components/Eventhandlers';
+import Toolbar from './components/Toolbar';
+import Stategallery from './components/State/Stategallery';
 
 
 export default function App() {
@@ -32,6 +34,9 @@ export default function App() {
       <br>
       </br>
       <Eventhandlers />
+      <Toolbar />
+      <hr></hr>
+      <Stategallery />
     </>
   );
 }
